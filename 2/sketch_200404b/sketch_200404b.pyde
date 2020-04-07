@@ -1,8 +1,8 @@
 def setup():
     size(600, 600)
     global x, y, xSpeed, ySpeed
-    x = 600
-    y = 300
+    x = width
+    y = height/2 # lepiej używać zależnych, wóczas gdy zmieni się rozmiar okna, proporcje pozostaną bez zmian
     
     xSpeed = 5
     ySpeed = 5
@@ -23,8 +23,11 @@ def draw():
     if y > height or y <0:
         ySpeed *= -1
     
-    fill(random(255), random(255), random(255))
+    fill(random(255), random(255), random(255)) # to pójście na łatwiznę, a mieliście powtórzyć kolekcje przy tym temacie
     ellipse(x, y, 50, 50)
+    
+# zgrabnie napisane, i plus za tekst, jednak muszę odjąć za znaczne uproszczenie sprawy z kolorem
+# 1,25 +
 
     
 
