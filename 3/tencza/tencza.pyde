@@ -4,11 +4,11 @@ def setup():
     textAlign(LEFT, TOP)
     global color1, color2, kolor, klatki
     color1 = "#ff0000"
-    color2 = "#ffff00"
+    color2 = "#ffff00" 
     noStroke()
     kolor = 0
     klatki = 0
-    fill(255)
+    fill(255) # byłoby łątwiej, gdybyś podświetlenie zrobił w jedym kolorze a drugim byłby kolor idlowy (defoultowy, biały), wóczas wystarczyłoby zamieniaćkolory, a tak srzałki działąjąmało logicznie
     text("C", 350, 300)
 def draw():
     global klatki, kolor
@@ -18,7 +18,8 @@ def draw():
     klatki += 1
     if klatki % 1 == 0:
         kolor += 1
-    wzorek(350, 300, kolor); wzorek(150, 300, kolor)
+    wzorek(350, 300, kolor)
+    wzorek(150, 300, kolor) # lepszą praktyką jest pisanie w nowych liniach
 
 def keyPressed():
     global color1, color2
@@ -63,3 +64,6 @@ def wzorek(x, y, start):
         rect(x + 150, j, 10, 10)
         j += 10
         k += 1
+        
+# za oryginalną tęczę i wydzielenie funkcji daję plus do aktywności
+# 1,75 za dziwnie działające strzałki
