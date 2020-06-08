@@ -1,0 +1,6 @@
+NazwaKlasy Bankomat	
+atrybut_klasy wypłacanie pieniędzy
+atrybut karta płatnicza
+metoda wpisywanie kodu pinu
+NazwaKlasy Kwota
+metoda wybieramy kwote i czekamy na pieniądze
