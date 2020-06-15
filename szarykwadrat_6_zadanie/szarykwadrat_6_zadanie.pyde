@@ -15,6 +15,7 @@ class SzaryKwadrat(Kwadrat):
         rectMode(CENTER)
         fill(100)
         super(SzaryKwadrat, self).sketch(x, y)
+        # tu by wypadało ustawić kolor spowrotem na pierwotny, bo jak będzie się rysowało teraz zwykły kwadrat po szarym to też będzie w tym kolorze
 
 def setup():
     size(500, 500)
@@ -23,3 +24,5 @@ def setup():
     malySzaryKwadrat.sketchSzary(325,300)
     duzySzaryKwadrat = SzaryKwadrat(120.0)
     duzySzaryKwadrat.sketchSzary(150, 150)
+    
+# 2pkt
