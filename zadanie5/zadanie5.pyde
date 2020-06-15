@@ -17,3 +17,5 @@ def draw():
         
 def mousePressed():
     systems.append(DajamondoSystem(3, PVector(mouseX, mouseY)))
+    
+# 2pkt chociaż znam źródło, ale że chciało Ci się przerabiać z javy.. mam nadzieję, ze orientujesz jak działa
