@@ -1,6 +1,8 @@
 NazwaKlasy Bankomat	
 atrybut_klasy wypłacanie pieniędzy
-atrybut karta płatnicza
-metoda wpisywanie kodu pinu
-NazwaKlasy Kwota
+atrybut karta płatnicza # bankomat ma tylko jedną kartę? aktywną w sumie może mieć jedną, ale wtedy raczej stan 'czyKartaIn', a sama karta powinna być drugą klasą
+metoda wpisywanie kodu pinu # to powinno być w karcie a nie bankomacie, bo każda karta ma swój i to cecha karty, nie bankomatu
+NazwaKlasy Kwota # kwota jest kwotą, która obecnie jest w bankomacie w jakichś nominałąch, czy tą którą chce się wybrać, czy tą w UI w opcjach, czy tą jaką ma się na karcie możliwą do wyciągnięcia? W żadnymz tych przypadków raczej nie powinna być klasą a atrybutem odpowiedniej klasy
 metoda wybieramy kwote i czekamy na pieniądze
+
+0,5/1,5pkt za tą część

@@ -56,4 +56,6 @@ def mouseClicked(): # poklikajcie kilkakrotnie w przyciski: wypożyczneie dwa ra
         if mouseY >10 and mouseY <30:
             library.lendBook(Kacper.requestBook("JoJos Bizarre Adventure")) # cała interakcja między biblioteką a klientem łączy się dopiero tutaj, obiekty są oddzielne i każdy ma swoją odpowiedzialność: biblioteka za przechowywane książki, klient za wypożyczoną i to tej odpowiedzialności dotyczą metody, nie używają wzajemnie swoich pól, jest porządek
         if mouseY >40 and mouseY <60:
-            library.addBook(Kacper.returnBook())
+            library.addBook(Kacper.returnBook()) # zamiast dodać zastąpiłeś
+            
+# 0,25/0,5 za tą część
