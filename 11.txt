@@ -5,3 +5,7 @@ Kibic: Jestem początkującym kibicem, dość niedawno zacząłem się interesow
 WZORZEC: Fasada
 DLACZEGO: Profesjonalny gracz posługuję się językiem zrozumiałym tylko dla ludzi, którzy się albo bardzo interesują koszykówką lub są jakoś powiązani z nią.
 Dla ludzi, którzy są "świezi" te słowa nie są proste i zrozumiałe.
+
+W fasadzie element od prostego polecenia nie potrzebuje mieć wytłumaczonego, pozostaje w niewiedzy, element o wiedzy specjalistycznej robi za niego i taka jest idea.
+Ale na roku dobrze zagłosowali za fasadą.
+1,5pkt
