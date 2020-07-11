@@ -67,16 +67,18 @@ def mouseClicked(): # poklikajcie kilkakrotnie w przyciski: wypożyczneie dwa ra
 class testCustomer(unittest.TestCase):
     def __init__(self, *args, **kwargs):
         super(testCustomer, self).__init__(*args, **kwargs)
-        self.cust = Madzia
-        self.cust2 = Kacper
+        self.cust = Customer()
+        self.cust2 = Customer()
 
     def testSameBooks(self):
-        self.assertNotEqual(self.cust.book, self.cust2.book)
+        self.assertEqual(self.cust.book, self.cust2.book) #trzebaby wypożyczyć jeszcze w teście, żeby porównywać, obecnie porównuje, czy oba są puste
 
 class testLibrary(unittest.TestCase):
     def __init__(self, *args, **kwargs):
         super(testLibrary, self).__init__(*args, **kwargs)
-        self.lib = library
+        self.lib = Library(['jakaś'])
 
     def testEmptyLibrary(self):
         self.assertFalse(self.lib.availableBooks == [])
+        
+#1,25pkt
